@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Planner RAG Agent//Class Schedule Fall 2026//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Fall 2026 Class Schedule
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+UID:math301-mwf@university.edu
+SUMMARY:MATH 301 - Applied Linear Algebra
+DTSTART;TZID=America/New_York:20260909T100000
+DTEND;TZID=America/New_York:20260909T105000
+LOCATION:Science Hall 201
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;UNTIL=20261211T235959Z
+DESCRIPTION:Dr. Sarah Chen. Bring textbook and scientific calculator.
+END:VEVENT
+BEGIN:VEVENT
+UID:fin405-tth@university.edu
+SUMMARY:FIN 405 - Portfolio Allocation and Asset Pricing
+DTSTART;TZID=America/New_York:20260908T140000
+DTEND;TZID=America/New_York:20260908T151500
+LOCATION:Business School 305
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20261210T235959Z
+DESCRIPTION:Prof. James Morrison. Bring laptop with Python environment.
+END:VEVENT
+BEGIN:VEVENT
+UID:cs350-mw@university.edu
+SUMMARY:CS 350 - Software Development (Lecture)
+DTSTART;TZID=America/New_York:20260909T153000
+DTEND;TZID=America/New_York:20260909T164500
+LOCATION:Engineering 102
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE;UNTIL=20261209T235959Z
+DESCRIPTION:Prof. Alex Rivera. Bring laptop.
+END:VEVENT
+BEGIN:VEVENT
+UID:cs350-lab-fri@university.edu
+SUMMARY:CS 350 - Software Development Lab
+DTSTART;TZID=America/New_York:20260911T140000
+DTEND;TZID=America/New_York:20260911T155000
+LOCATION:Engineering Computer Lab 110
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20261211T235959Z
+DESCRIPTION:CS 350 Friday lab section. Bring laptop. Labs due at 11:59 PM same day.
+END:VEVENT
+BEGIN:VEVENT
+UID:hps220-tth@university.edu
+SUMMARY:HPS 220 - History and Philosophy of Science
+DTSTART;TZID=America/New_York:20260908T100000
+DTEND;TZID=America/New_York:20260908T111500
+LOCATION:Humanities 115
+RRULE:FREQ=WEEKLY;BYDAY=TU,TH;UNTIL=20261210T235959Z
+DESCRIPTION:Dr. Maya Patel. Complete all readings before class. Discussion-heavy.
+END:VEVENT
+BEGIN:VEVENT
+UID:gym-mwf@personal
+SUMMARY:Gym / Workout
+DTSTART;TZID=America/New_York:20260909T070000
+DTEND;TZID=America/New_York:20260909T080000
+LOCATION:Campus Recreation Center
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE,FR;UNTIL=20261212T235959Z
+DESCRIPTION:Morning workout routine. Cardio Mon/Fri, strength Wed.
+END:VEVENT
+BEGIN:VEVENT
+UID:study-sun@personal
+SUMMARY:Weekly Planning and Study Block
+DTSTART;TZID=America/New_York:20260913T190000
+DTEND;TZID=America/New_York:20260913T210000
+LOCATION:Library Study Room
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20261213T235959Z
+DESCRIPTION:Weekly review: check upcoming deadlines, plan the week, catch up on readings.
+END:VEVENT
+BEGIN:VEVENT
+UID:thanksgiving-break@university.edu
+SUMMARY:Thanksgiving Break - No Classes
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261129
+DESCRIPTION:University closed Nov 25-28. Enjoy the break!
+END:VEVENT
+BEGIN:VEVENT
+UID:fall-break@university.edu
+SUMMARY:Fall Break - No Classes
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:Fall recess. No classes Mon-Fri. A good time to catch up on projects.
+END:VEVENT
+END:VCALENDAR

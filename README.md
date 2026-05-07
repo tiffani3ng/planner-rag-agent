@@ -1,3 +1,9 @@
+# Planner RAG Agent
+
+A locally-running CLI scheduling assistant. See [CAPB.md](CAPB.md) for full design doc.
+
+---
+
 ### Planner RAG — Mini-Project #3
 A Retrieval-Augmented Generation (RAG) assistant that ingests syllabi, task lists, and calendar exports to act as a dynamic personalized scheduler. The agent answers questions like “I have 3 hours between classes today, how should I allocate my time?” or “What do I have to get done before my vacation in two weeks?”, surfaces all relevant deadlines, and proposes feasible, balanced plans that adjust according to task completion.
 
